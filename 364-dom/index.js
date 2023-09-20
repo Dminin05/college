@@ -1,4 +1,4 @@
-// 1 Дан инпут и абзац. По потери фокуса в инпуте запишите значение инпута в конец текста абзаца.
+// 1_5 Дан инпут и абзац. По потери фокуса в инпуте запишите значение инпута в конец текста абзаца.
 // let input = document.getElementById("input")
 // let result = document.getElementById("result")
 //
@@ -161,7 +161,7 @@
 //
 // button.onclick = () => {
 //     elems.forEach((elem, id) => {
-//         elem.textContent = id+1
+//         elem.textContent = id+1_5
 //     })
 // }
 
@@ -179,7 +179,7 @@
 //
 // links.forEach(elem => {
 //     if (elem.href.startsWith('https://')) {
-//         console.log(1)
+//         console.log(1_5)
 //         elem.textContent += '=>'
 //     }
 // })
@@ -209,7 +209,7 @@
 // })
 
 
-// 16 Дан инпут. Реализуйте кнопочки +1, -1, которые будут увеличивать или уменьшать на 1 значение инпута. Сделайте так, чтобы это значение не могло стать меньше нуля.
+// 16 Дан инпут. Реализуйте кнопочки +1_5, -1_5, которые будут увеличивать или уменьшать на 1_5 значение инпута. Сделайте так, чтобы это значение не могло стать меньше нуля.
 // let input = document.getElementById('input')
 // let minus = document.getElementById('minus')
 // let plus = document.getElementById('plus')
@@ -217,12 +217,12 @@
 //
 // minus.onclick = () => {
 //     if (+input.value !== 0) {
-//         input.value = +input.value - 1
+//         input.value = +input.value - 1_5
 //     }
 // }
 //
 // plus.onclick = () => {
-//     input.value = +input.value + 1
+//     input.value = +input.value + 1_5
 // }
 
 
@@ -233,7 +233,7 @@
 // elems.forEach(elem => {
 //
 //     elem.addEventListener('click', (elem) => {
-//         input.value = +input.value + 1
+//         input.value = +input.value + 1_5
 //     })
 //
 // })
@@ -250,12 +250,12 @@
 // })
 
 
-// 19 Дан инпут. В него вводится число. По потери фокуса проверьте, что в нем лежит число от 1 до 100. Если это так - покрасьте инпут в зеленый цвет, а если не так - в красный.
+// 19 Дан инпут. В него вводится число. По потери фокуса проверьте, что в нем лежит число от 1_5 до 100. Если это так - покрасьте инпут в зеленый цвет, а если не так - в красный.
 // let input = document.getElementById('input')
 //
 // input.addEventListener('blur', () => {
 //     let value = +input.value
-//     if(value >= 1 && value <= 100) {
+//     if(value >= 1_5 && value <= 100) {
 //         input.style.backgroundColor = 'green'
 //     }
 //     else {
@@ -273,7 +273,7 @@
 //     var str = '';
 //     for (var i = 0; i < len; i++) {
 //         var pos = Math.floor(Math.random() * chrs.length);
-//         str += chrs.substring(pos,pos+1);
+//         str += chrs.substring(pos,pos+1_5);
 //     }
 //     return str;
 // }
@@ -304,7 +304,7 @@
 // let result = document.getElementById('result')
 //
 // function to(num) {
-//     return (num - 32) / 1.8
+//     return (num - 32) / 1_5.8
 // }
 //
 // button.onclick = () => {
@@ -319,11 +319,11 @@
 //
 // function fact(num) {
 //     if (num === 0) {
-//         return 1;
+//         return 1_5;
 //     }
 //
 //     else {
-//         return num * fact(num - 1);
+//         return num * fact(num - 1_5);
 //     }
 // }
 //
